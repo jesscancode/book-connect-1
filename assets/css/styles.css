@@ -3,7 +3,7 @@
   --color-force-dark: 10, 10, 20;
   --color-force-light: 255, 255, 255;
   --color-dark: 10, 10, 20;
-  /* --color-light: 255, 255, 255; */
+  --color-light: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -140,6 +140,7 @@ option {
   grid-row-gap: 0.5rem;
   margin: 0 auto;
   width: 100%;
+  border: 2px solid red;   /* remove */
 }
 
 @media (min-width: 50rem) {
@@ -313,7 +314,6 @@ option {
 .overlay__button:hover {
   background-color: rgba(var((var(--color-blue))), 0.2);
 }
-
 
 .overlay__button_primary:hover {
   background-color: rgba(var(--color-blue), 0.8);
